@@ -13,11 +13,11 @@ app = Flask(__name__)
 
 # Configura Kafka con TUS credenciales (usa variables de entorno)
 KAFKA_CONFIG = {
-  'bootstrap_servers'='d035kvrb92dfgde406p0.any.us-east-1.mpx.prd.cloud.redpanda.com:9092',
-  'security_protocol'='SASL_SSL',
-  'sasl_mechanism'='SCRAM-SHA-256',
-  'sasl_plain_username'='tony',
-  'sasl_plain_password'='1234',
+  'bootstrap_servers':'d035kvrb92dfgde406p0.any.us-east-1.mpx.prd.cloud.redpanda.com:9092',
+  'security_protocol':'SASL_SSL',
+  'sasl_mechanism':'SCRAM-SHA-256',
+  'sasl_plain_username':'tony',
+  'sasl_plain_password':'1234',
 }
 
 producer = Producer(KAFKA_CONFIG)
