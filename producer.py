@@ -16,7 +16,7 @@ KAFKA_CONFIG = {
   'bootstrap.servers':'d035kvrb92dfgde406p0.any.us-east-1.mpx.prd.cloud.redpanda.com:9092',
   'security.protocol':'SASL_SSL',
   'sasl.mechanism':'SCRAM-SHA-256',
-  'sasl.sername':'tony',
+  'sasl.username':'tony',
   'sasl.password':'1234',
 }
 
