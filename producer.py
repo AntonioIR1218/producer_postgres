@@ -3,6 +3,7 @@ from confluent_kafka import Producer
 import requests
 import logging
 import os
+import json
 
 logging.basicConfig(
     level=logging.INFO,
